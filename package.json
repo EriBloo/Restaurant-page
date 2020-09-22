@@ -1,0 +1,32 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Project made as an exercise while learning js and modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EriBloo/Restaurant-page.git"
+  },
+  "keywords": [
+    "restaurant",
+    "page",
+    "modules",
+    "es6",
+    "javascript",
+    "exercise",
+    "learning"
+  ],
+  "author": "EriBloo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EriBloo/Restaurant-page/issues"
+  },
+  "homepage": "https://github.com/EriBloo/Restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
