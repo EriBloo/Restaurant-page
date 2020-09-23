@@ -2,4 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: url("../img/ramen bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container .sidebar {
+  font-size: 2000%;
+  color: #f4f4f4;
+  height: 70vh;
+  margin: 2rem;
+  flex-shrink: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.container .sidebar .title {
+  margin-bottom: 5rem;
+}
+
+.container .sidebar .nav .button {
+  cursor: pointer;
+}
+
+.container .sidebar .nav .button:hover {
+  text-decoration: underline;
+}
+
+.container .content-wrapper {
+  height: 100vh;
+  width: 70vw;
+  display: grid;
+  place-items: center;
+}
+
+.container .content-wrapper .content {
+  height: 70vh;
+  width: 40vw;
+  margin: 2rem;
+  color: #333333;
+  background-color: #f4f4f4bd;
+  border-radius: 2rem;
+}
+
+.container .content-wrapper .content h2 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.container .content-wrapper .content h3 {
+  font-size: 2rem;
+  padding: 1rem;
 }
