@@ -1,7 +1,7 @@
 const content = {
 	"home" : {
 		"About" : "Inspired by best ramen restaurants in the world we would like to bring this amazing experience straight to your home.",
-		"Our mission" : "Always fresh and the same tasty dishes delivered fast, straight to youe home. Order Now!"
+		"Our mission" : "Always fresh and the same tasty dishes delivered fast, straight to your home. Order Now!"
 	},
 	"menu" : {
 		"Ramen" : "Mild or spicy. With meat or vegetarian. Something for everybody.",

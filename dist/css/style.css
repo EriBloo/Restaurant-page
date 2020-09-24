@@ -62,9 +62,11 @@ body {
 .container .content-wrapper .content h2 {
   font-size: 3rem;
   padding: 1rem;
+  color: #14148a;
 }
 
 .container .content-wrapper .content h3 {
   font-size: 2rem;
   padding: 1rem;
+  color: #333333;
 }

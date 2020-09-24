@@ -1,4 +1,4 @@
-import elementsHome from "./home";
+import createElementsArray from "./createElements";
 
 function addToContent(value) {
 	const content = document.querySelector("#content");
@@ -16,4 +16,17 @@ function clearContent() {
 	}
 }
 
-addToContent(elementsHome());
+(function createEvents() {
+	const buttons = document.querySelectorAll(".button");
+
+	buttons.forEach((button) => {
+		button.addEventListener("click", () => {
+			clearContent();
+			addToContent(createElementsArray(button.getAttribute("data")));
+		})
+	})
+})();
+
+(function defaultPage() {
+	addToContent(createElementsArray("home"));
+})();
